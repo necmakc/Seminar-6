@@ -3,18 +3,18 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-// int CountPositiveNumbers(int numbers)
-// {
-//     int count = 0;
-//     int num = 0;
-//     for (int i = 1; i <= numbers; i++)
-//     {
-//         Console.Write($"Число {i}: ");
-//         if (Convert.ToInt32(Console.ReadLine()) > 0)
-//             count++;
-//     }
-//     return count;
-// }
+int CountPositiveNumbers(int numbers)
+{
+    int count = 0;
+    int num = 0;
+    for (int i = 1; i <= numbers; i++)
+    {
+        Console.Write($"Число {i}: ");
+        if (Convert.ToInt32(Console.ReadLine()) > 0)
+            count++;
+    }
+    return count;
+}
 
 // Console.WriteLine("Введите количество чисел: ");
 // int numCount = Convert.ToInt32(Console.ReadLine());
