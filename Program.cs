@@ -16,10 +16,10 @@ int CountPositiveNumbers(int numbers)
     return count;
 }
 
-// Console.WriteLine("Введите количество чисел: ");
-// int numCount = Convert.ToInt32(Console.ReadLine());
-// int count = CountPositiveNumbers(numCount);
-// Console.WriteLine($"Числа > 0 : {count}");
+Console.WriteLine("Введите количество чисел: ");
+int numCount = Convert.ToInt32(Console.ReadLine());
+int count = CountPositiveNumbers(numCount);
+Console.WriteLine($"Числа > 0 : {count}");
 
 
 // Задача 2: ------------------------------------------------------------------------------------------------------------------ 
